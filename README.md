@@ -7,12 +7,3 @@ do New York Times feito para prática de habilidades com CSS e styled components
 * React
 * Styled Components
 
-## Orginal 
-
-![alt header](https://github.com/CaioGrossi/Clone-NYT/blob/master/imagensReadme/imgclone1.png?raw=true)
-![alt header](https://github.com/CaioGrossi/Clone-NYT/blob/master/imagensReadme/imgclone2.png?raw=true)
-
-
-## Clone
-![alt header](https://github.com/CaioGrossi/Clone-NYT/blob/master/imagensReadme/imgori1.png?raw=true)
-![alt header](https://github.com/CaioGrossi/Clone-NYT/blob/master/imagensReadme/imgori2.png?raw=true)
