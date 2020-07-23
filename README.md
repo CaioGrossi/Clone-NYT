@@ -6,3 +6,5 @@ do New York Times feito para prática de habilidades com CSS e styled components
 ## Estudado
 * React
 * Styled Components
+
+![alt "sim"](https://github.com/CaioGrossi/Clone-NYT/blob/master/src/assets/images/coffe.png?raw=true)
