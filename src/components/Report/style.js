@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const Wrapper = styled.div`
-  width: 60%;
+  width: 75%;
   margin: auto;
   margin-top: 40px;
   
@@ -69,6 +69,10 @@ export const Media = styled.div`
 
   > img {
     max-width: 100%;
+  }
+
+  > iframe {
+    width: 100%;
   }
 `;
 export const Footer = styled.div`

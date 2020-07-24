@@ -29,4 +29,23 @@ export const Header = styled.header`
     padding: 8px;
   }
 
+  .loginIcon {
+    display: none;
+  }
+
+  @media(max-width: 1020px) {
+
+    button {
+      display: none;
+    }
+
+    .searchIcon {
+      display: none;
+    }
+
+    .loginIcon {
+      display: inline;
+    }
+  }
+
 `;

@@ -7,9 +7,20 @@ export const Container = styled.div`
 
   > h1 {
     margin-left: 100px;
-    margin-right: 0;
+    margin-right: 0px;
     width: 60%;
   }
+
+  @media(max-width: 768px ) {
+    width: 100%;
+
+     h1  {
+       width: 80%;
+       margin: auto;
+     }
+  }
+
+
 `;
 
 export const MainImage = styled.div`
@@ -22,10 +33,16 @@ export const MainImage = styled.div`
 
   > p {
     color: gray;
-    margin-right: 250px;
+    width: 80%;
   }
 
   span {
     font-size: 15px;
+  }
+
+  @media (max-width: 768px) {
+    p {
+      margin-left: 15px;
+    }
   }
 `;

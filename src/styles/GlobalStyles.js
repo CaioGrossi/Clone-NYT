@@ -12,4 +12,4 @@ export default createGlobalStyle`
       width: 100vw;
       width: 100%;
   }
-`
+`;

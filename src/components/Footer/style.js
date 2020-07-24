@@ -40,6 +40,19 @@ export const Topics = styled.div`
     margin-top: 10px;
   }
 
+  @media(max-width: 1140px) {
+    display: flex;
+    flex-direction: column;
+
+    div {
+      margin-bottom: 15px;
+    }
+
+    p {
+       display: none;
+     }
+  }
+
 `;
 
 export const Subscribe = styled.div`
@@ -49,6 +62,10 @@ export const Subscribe = styled.div`
   > p {
     margin-top: 15px;
     font-size: 12px;
+  }
+
+  @media(max-width: 1140px) {
+    display: none;
   }
 `;
 
@@ -76,9 +93,12 @@ export const Language = styled.div`
 export const Footer = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 20px;
+  align-content: center;
   width: 95%;
   margin: auto;
+  max-width: 100%;
 
   > span {
     font-size: 12px;

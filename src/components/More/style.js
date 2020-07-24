@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 80%;
+  width: 90%;
   display: flex;
   margin: auto;
 `;
@@ -15,6 +15,10 @@ export const MoreNews = styled.div`
     padding-top: 10px;
     border-top: 1px solid black;
   }
+
+  @media(max-width: 740px) {
+    width: 100%;
+  }
 `;
 
 export const News = styled.div`
@@ -23,6 +27,10 @@ export const News = styled.div`
   grid-template-rows: 1fr 1fr;
   grid-row-gap: 70px;
   grid-column-gap: 20px;
+
+  @media(max-width: 1020px) {
+    grid-template-columns: 1fr 1fr;
+  } 
 `;
 
 export const Picks = styled.div`
@@ -30,6 +38,10 @@ export const Picks = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 20px;
+
+  @media(max-width: 1020px) {
+    grid-template-columns: 1fr 1fr;
+  } 
 `;
 
 export const New = styled.div`
@@ -59,5 +71,9 @@ export const MostPopular = styled.div`
     text-align: justify;
     border-top: 1px solid #d3d3d3;
     padding: 22px 0;
+  }
+
+  @media (max-width: 740px) {
+    display: none;
   }
 `;

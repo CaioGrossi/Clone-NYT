@@ -65,19 +65,19 @@ const Footer = () => {
       </S.ExternalLinks>
 
       <S.Footer>
-        <span>© 2020 The New York Times Company</span>
-        <span>NYTCo</span>
-        <span>Contact Us</span>
+        <span>© 2020 The New York Times Company </span>
+        <span>NYTCo </span>
+        <span>Contact Us </span>
         <span>Work with us</span>
-        <span>Advertise</span>
-        <span>T Brand Studio</span>
-        <span>Your Ad Choices</span>
-        <span>Privacy</span>
-        <span>Terms of Service</span>
-        <span>Terms of Sale</span>
-        <span>Site Map</span>
-        <span>Help</span>
-        <span>Subscriptions</span>
+        <span>Advertise </span>
+        <span>T Brand Studio </span>
+        <span>Your Ad Choices </span>
+        <span>Privacy </span>
+        <span>Terms of Service </span>
+        <span>Terms of Sale </span>
+        <span>Site Map </span>
+        <span>Help </span>
+        <span>Subscriptions </span>
       </S.Footer>
     </S.Wrapper>
   );
