@@ -1,9 +1,23 @@
-# Clone reportagem New York Times
+# React to do list 
+Clone de uma reportagem do New York Times.
 
-Clone dessa [reportagem](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) 
-do New York Times feito para prática de habilidades com CSS e styled components.
+<p align="center">
+  <img src="/demo/clone-nyt.gif" />
+</p>
 
+## Pré-requisitos
+Ter uma versão atualizada do NodeJS instalada em sua maquina e um gerenciador de pacotes (yarn ou npm).
+
+## Como executar
+Vá até a paste do projeto e digite:
+```
+yarn ou npm install
+```
+para instalar as dependencias
+```
+yarn start ou npm start
+```
+para executar o projeto.
 ## Estudado
-* React
-* Styled Components
-
+* ReactJS
+* Styled components
